@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40%;
+    background-image: linear-gradient(to bottom, #499add, #4e61c0);
+}
+h4{
+    font-size: 25px;
+    margin-top: 0px;
+}
+img{
+    margin-top: 40px;
+    margin-left: auto;
+    padding-right: 50px;
+    justify-content: flex-end;
+    width: 20%;
+}
+.left_1{
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    width: 90px;
+    height: 40px;
+}
+.line{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+.icon{
+    color: aliceblue;
+    text-align: center;
+    height: 20%;
+    background-color: #4e61c0;
+    padding: 60px 30px 50px 30px;
+}
+.icon_container{
+    display: flex;
+}
+.icons{
+    width: 25%;
+}
+i{
+    color: black;
+    background-color: aliceblue;
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+h6{
+    margin-top: 0px;
+}
+.sd{
+    margin-bottom: 0px;
+}
+.photo{
+    text-align: center;
+}
+.image_4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #4e61c0;
+    height: 500px;
+    display: flex;
+    opacity: 0;
+}
+.pho_1{
+    background-image: url(./portfolio-1.jpg);
+    width: 50%;
+    height: 50%;
+}

@@ -1,0 +1,57 @@
+body{
+    background-color: dimgray;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aliceblue;
+    width: 35%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 17px;
+}
+input[type=email]{
+    width: 100%;
+    height: 20px;
+    border-radius: 5%;
+}
+.First{
+    
+    float: left;
+    width: 50%;
+}
+input[type=text]{
+    width: 90%;
+    height: 20px;
+    border-radius: 5%;
+}
+textarea{
+    width: 100%;
+    border-radius: 5%;
+}
+.Last{
+    float: left;
+    width: 50%;
+}
+.message{
+    clear: both;
+}
+footer{
+    margin-top: 20px;
+}
+input[type=checkbox]{
+    float: left;
+}
+button{
+    float: right;
+    background-color: orange;
+    color: white;
+    border: 1px white;
+    box-sizing: border-box;
+}   

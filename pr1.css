@@ -1,0 +1,28 @@
+.container{
+    background-color: #eee;
+    display: flex;
+}
+.item_1{
+    width: 90%;
+    margin: auto;
+}
+img{
+    width: 100%;
+    padding: 10px;
+}
+.kl{
+    position: relative;
+}
+.ani{
+    text-align: center;
+    font-size: xx-large;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: gray;
+    opacity: 0;
+    transition: all 1s;
+}
+.ani:hover{
+    opacity: 0.5;
+}
